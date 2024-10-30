@@ -1,0 +1,9 @@
+@media (max-width: 500px) {
+    .cartao {
+        padding: 15px;
+    }
+}
+
+.imagem-jessica {
+    width: 40%; 
+}

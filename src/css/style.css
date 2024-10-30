@@ -1,0 +1,92 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400, 600, 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(0, 0%, 8%);
+    max-width: 1440px
+ 
+   
+}
+
+.card{
+    background:  hsl(0, 0%, 12%);
+    margin-top: 150px;
+    
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.image-jessica{
+    
+    width: 25%;
+    border-radius: 50%;
+ 
+    margin: 0 auto;
+    max-width: 100px;
+
+}
+
+.name{
+    font-size: 20px;
+    color: hsl(0, 0%,100%);
+    margin: 5px;
+    padding: 5px;
+  
+}
+
+.city{
+    font-size: 14px;
+    
+    color: hsl(75, 94%, 57%);
+}
+
+.profission{
+    font-size: 14px;
+    color: hsl(0, 0%,100%);
+    padding: 30px;
+}
+
+.contacts{
+  
+    color: hsl(0, 0%,100%);
+   
+    display: flex;
+    justify-content: center;
+    
+    
+    
+
+}
+
+li{
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid  hsl(0, 0%, 20%);
+    width: auto;
+    padding: 10px 50px;
+    background-color:  hsl(0, 0%, 20%);
+    transition: background-color 0.3s ease;
+}
+
+.social-media li:hover {
+    background-color: hsl(75, 94%, 57%);
+    
+}
+.social-media a {
+    color: hsl(0, 0%, 100%); 
+    transition: background-color 0.3s ease, color 0.3s ease;
+   
+}
+
+.social-media li:hover a {
+
+    color: hsl(0, 0%, 8%);
+
+}
+
+
